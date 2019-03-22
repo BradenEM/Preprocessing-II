@@ -7,6 +7,10 @@
 @import "footer.less";
 @import "home-page.less";
 
-//  div.btn {
-//   .button(@button-bg, @radius, @weight);
-// }
+div.btn {
+  .button(@button-bg, @radius, @weight);
+
+  @media @mobile {
+    width: 100%;
+  }
+}
